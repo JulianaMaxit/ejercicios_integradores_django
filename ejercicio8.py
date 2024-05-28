@@ -97,7 +97,7 @@ class CuentaJoven(Cuenta):
         if self.es_titular_valido():
             super().retirar(cantidad)
         else:
-            print("El titular de la cuenta debe tener más de 18 y menos de 25 años para poder retirar dinero.")
+            print("El/la titular de la cuenta debe tener más de 18 y menos de 25 años para poder retirar dinero.")
 
     def mostrar(self):
         print("Tipo de cuenta: Cuenta Joven")
